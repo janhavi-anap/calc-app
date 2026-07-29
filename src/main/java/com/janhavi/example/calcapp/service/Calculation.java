@@ -29,4 +29,8 @@ public class Calculation {
         logger.debug("Adding 3 numbers {} and {} and {}",a,b,c);
         return a+b+c;
     }
+    public double add4(double a, double b,double c, double d){
+        logger.debug("Adding 3 numbers {} and {} and {} and {}",a,b,c,d);
+        return a+b+c+d;
+    }
 }
