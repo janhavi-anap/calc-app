@@ -21,4 +21,8 @@ public class Calculation {
         logger.debug("Dividing {} and {}",a,b);
         return a/b;
     }
+    public double pow(double a, double b){
+        logger.debug("Power {} and {}",a,b);
+        return Math.pow(a,b);
+    }
 }

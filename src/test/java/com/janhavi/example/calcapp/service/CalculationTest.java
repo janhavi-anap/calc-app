@@ -35,6 +35,11 @@ public class CalculationTest {
         Assertions.assertNotNull(calc, "service object is null");
         Assertions.assertEquals(3.0,calc.div(6.0,2.0));
     }
+    @Test
+    public void testPow(){
+        Assertions.assertNotNull(calc, "service object is null");
+        Assertions.assertEquals(36.0,calc.pow(6.0,2.0));
+    }
     @AfterEach
     public  void  tearDown(){
         calc=null;
