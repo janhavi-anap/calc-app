@@ -26,7 +26,7 @@ public class Calculation {
         return Math.pow(a,b);
     }
     public double add3(double a, double b,double c){
-        logger.debug("Adding {} and {} and {}",a,b,c);
+        logger.debug("Adding 3 numbers {} and {} and {}",a,b,c);
         return a+b+c;
     }
 }
