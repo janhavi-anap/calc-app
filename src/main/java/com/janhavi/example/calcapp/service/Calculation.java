@@ -25,4 +25,8 @@ public class Calculation {
         logger.debug("Power {} and {}",a,b);
         return Math.pow(a,b);
     }
+    public double add3(double a, double b,double c){
+        logger.debug("Adding {} and {} and {}",a,b,c);
+        return a+b+c;
+    }
 }
